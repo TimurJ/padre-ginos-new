@@ -1,12 +1,9 @@
-import { PIZZAS } from './constants'
-import Pizza from './Pizza'
+import Order from './Order'
 
 function App() {
   return (
     <div>
-      {PIZZAS.map((pizza) => {
-        return <Pizza name={pizza.name} description={pizza.description} image={pizza.image} />
-      })}
+      <Order />
     </div>
   )
 }

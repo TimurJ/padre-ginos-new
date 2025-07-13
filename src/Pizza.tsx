@@ -1,7 +1,7 @@
 interface PizzaProps {
-  name: string
-  description: string
-  image: string
+  name: string | undefined
+  description: string | undefined
+  image: string | undefined
 }
 
 const Pizza: React.FC<PizzaProps> = ({ name, description, image }) => {
