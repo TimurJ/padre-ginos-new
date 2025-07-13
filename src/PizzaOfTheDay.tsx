@@ -1,4 +1,4 @@
-import { usePizzaOfTheDay } from './usePizzaOfTheDay'
+import { usePizzaOfTheDay } from './hooks/usePizzaOfTheDay'
 import { intl } from './utils'
 
 const PizzaOfTheDay = () => {

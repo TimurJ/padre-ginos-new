@@ -11,4 +11,10 @@ export interface PizzaType {
   }
 }
 
+export interface CartType {
+  pizza: PizzaType | undefined
+  size: PizzaSizesType
+  price: string
+}
+
 export type PizzaSizesType = keyof PizzaType['sizes']
