@@ -1,14 +1,10 @@
-import Order from './Order'
-import PizzaOfTheDay from './PizzaOfTheDay'
+import { RouterProvider, createRouter } from '@tanstack/react-router'
+import { routeTree } from './routeTree.gen'
+
+const router = createRouter({ routeTree })
 
 function App() {
-  return (
-    <div>
-      <h1 className="logo">Padre Gino's</h1>
-      <Order />
-      <PizzaOfTheDay />
-    </div>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App

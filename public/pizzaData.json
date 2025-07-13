@@ -4,7 +4,7 @@
     "name": "The Barbecue Chicken Pizza",
     "category": "Chicken",
     "description": "Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",
-    "image": "/public/pizzas/bbq_ckn.webp",
+    "image": "/pizzas/bbq_ckn.webp",
     "sizes": {
       "S": 12.75,
       "M": 16.75,
@@ -16,7 +16,7 @@
     "name": "The California Chicken Pizza",
     "category": "Chicken",
     "description": "Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese",
-    "image": "/public/pizzas/cali_ckn.webp",
+    "image": "/pizzas/cali_ckn.webp",
     "sizes": {
       "S": 12.75,
       "M": 16.75,
@@ -28,7 +28,7 @@
     "name": "The Chicken Alfredo Pizza",
     "category": "Chicken",
     "description": "Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce",
-    "image": "/public/pizzas/ckn_alfredo.webp",
+    "image": "/pizzas/ckn_alfredo.webp",
     "sizes": {
       "S": 12.75,
       "M": 16.75,
@@ -40,7 +40,7 @@
     "name": "The Chicken Pesto Pizza",
     "category": "Chicken",
     "description": "Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce",
-    "image": "/public/pizzas/ckn_pesto.webp",
+    "image": "/pizzas/ckn_pesto.webp",
     "sizes": {
       "S": 12.75,
       "M": 16.75,
@@ -52,7 +52,7 @@
     "name": "The Southwest Chicken Pizza",
     "category": "Chicken",
     "description": "Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce",
-    "image": "/public/pizzas/southw_ckn.webp",
+    "image": "/pizzas/southw_ckn.webp",
     "sizes": {
       "S": 12.75,
       "M": 16.75,
@@ -64,7 +64,7 @@
     "name": "The Thai Chicken Pizza",
     "category": "Chicken",
     "description": "Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce",
-    "image": "/public/pizzas/thai_ckn.webp",
+    "image": "/pizzas/thai_ckn.webp",
     "sizes": {
       "S": 12.75,
       "M": 16.75,
@@ -76,7 +76,7 @@
     "name": "The Big Meat Pizza",
     "category": "Classic",
     "description": "Bacon, Pepperoni, Italian Sausage, Chorizo Sausage",
-    "image": "/public/pizzas/big_meat.webp",
+    "image": "/pizzas/big_meat.webp",
     "sizes": {
       "S": 12,
       "M": 16,
@@ -88,7 +88,7 @@
     "name": "The Classic Deluxe Pizza",
     "category": "Classic",
     "description": "Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon",
-    "image": "/public/pizzas/classic_dlx.webp",
+    "image": "/pizzas/classic_dlx.webp",
     "sizes": {
       "S": 12,
       "M": 16,
@@ -100,7 +100,7 @@
     "name": "The Hawaiian Pizza",
     "category": "Classic",
     "description": "Sliced Ham, Pineapple, Mozzarella Cheese",
-    "image": "/public/pizzas/hawaiian.webp",
+    "image": "/pizzas/hawaiian.webp",
     "sizes": {
       "S": 10.5,
       "M": 13.25,
@@ -112,7 +112,7 @@
     "name": "The Italian Capocollo Pizza",
     "category": "Classic",
     "description": "Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano",
-    "image": "/public/pizzas/ital_cpcllo.webp",
+    "image": "/pizzas/ital_cpcllo.webp",
     "sizes": {
       "S": 12,
       "M": 16,
@@ -124,7 +124,7 @@
     "name": "The Napolitana Pizza",
     "category": "Classic",
     "description": "Tomatoes, Anchovies, Green Olives, Red Onions, Garlic",
-    "image": "/public/pizzas/napolitana.webp",
+    "image": "/pizzas/napolitana.webp",
     "sizes": {
       "S": 12,
       "M": 16,
@@ -136,7 +136,7 @@
     "name": "The Pepperoni, Mushroom, and Peppers Pizza",
     "category": "Classic",
     "description": "Pepperoni, Mushrooms, Green Peppers",
-    "image": "/public/pizzas/pep_msh_pep.webp",
+    "image": "/pizzas/pep_msh_pep.webp",
     "sizes": {
       "S": 11,
       "M": 14.5,
@@ -148,7 +148,7 @@
     "name": "The Pepperoni Pizza",
     "category": "Classic",
     "description": "Mozzarella Cheese, Pepperoni",
-    "image": "/public/pizzas/pepperoni.webp",
+    "image": "/pizzas/pepperoni.webp",
     "sizes": {
       "S": 9.75,
       "M": 12.5,
@@ -160,7 +160,7 @@
     "name": "The Greek Pizza",
     "category": "Classic",
     "description": "Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions",
-    "image": "/public/pizzas/the_greek.webp",
+    "image": "/pizzas/the_greek.webp",
     "sizes": {
       "S": 12,
       "M": 16,
@@ -172,7 +172,7 @@
     "name": "The Brie Carre Pizza",
     "category": "Supreme",
     "description": "Brie Carre Cheese, Prosciutto, Caramelized Onions, Pears, Thyme, Garlic",
-    "image": "/public/pizzas/brie_carre.webp",
+    "image": "/pizzas/brie_carre.webp",
     "sizes": {
       "S": 23.65,
       "M": 28.85,
@@ -184,7 +184,7 @@
     "name": "The Calabrese Pizza",
     "category": "Supreme",
     "description": "�Nduja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic",
-    "image": "/public/pizzas/calabrese.webp",
+    "image": "/pizzas/calabrese.webp",
     "sizes": {
       "S": 12.25,
       "M": 16.25,
@@ -196,7 +196,7 @@
     "name": "The Italian Supreme Pizza",
     "category": "Supreme",
     "description": "Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic",
-    "image": "/public/pizzas/ital_supr.webp",
+    "image": "/pizzas/ital_supr.webp",
     "sizes": {
       "S": 12.5,
       "M": 16.5,
@@ -208,7 +208,7 @@
     "name": "The Pepper Salami Pizza",
     "category": "Supreme",
     "description": "Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic",
-    "image": "/public/pizzas/peppr_salami.webp",
+    "image": "/pizzas/peppr_salami.webp",
     "sizes": {
       "S": 12.5,
       "M": 16.5,
@@ -220,7 +220,7 @@
     "name": "The Prosciutto and Arugula Pizza",
     "category": "Supreme",
     "description": "Prosciutto di San Daniele, Arugula, Mozzarella Cheese",
-    "image": "/public/pizzas/prsc_argla.webp",
+    "image": "/pizzas/prsc_argla.webp",
     "sizes": {
       "S": 12.5,
       "M": 16.5,
@@ -232,7 +232,7 @@
     "name": "The Sicilian Pizza",
     "category": "Supreme",
     "description": "Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic",
-    "image": "/public/pizzas/sicilian.webp",
+    "image": "/pizzas/sicilian.webp",
     "sizes": {
       "S": 12.25,
       "M": 16.25,
@@ -244,7 +244,7 @@
     "name": "The Soppressata Pizza",
     "category": "Supreme",
     "description": "Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic",
-    "image": "/public/pizzas/soppressata.webp",
+    "image": "/pizzas/soppressata.webp",
     "sizes": {
       "S": 12.5,
       "M": 16.5,
@@ -256,7 +256,7 @@
     "name": "The Spicy Italian Pizza",
     "category": "Supreme",
     "description": "Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic",
-    "image": "/public/pizzas/spicy_ital.webp",
+    "image": "/pizzas/spicy_ital.webp",
     "sizes": {
       "S": 12.5,
       "M": 16.5,
@@ -268,7 +268,7 @@
     "name": "The Spinach Supreme Pizza",
     "category": "Supreme",
     "description": "Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese",
-    "image": "/public/pizzas/spinach_supr.webp",
+    "image": "/pizzas/spinach_supr.webp",
     "sizes": {
       "S": 12.5,
       "M": 16.5,
@@ -280,7 +280,7 @@
     "name": "The Five Cheese Pizza",
     "category": "Veggie",
     "description": "Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic",
-    "image": "/public/pizzas/five_cheese.webp",
+    "image": "/pizzas/five_cheese.webp",
     "sizes": {
       "S": 12.5,
       "M": 15.5,
@@ -292,7 +292,7 @@
     "name": "The Four Cheese Pizza",
     "category": "Veggie",
     "description": "Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic",
-    "image": "/public/pizzas/four_cheese.webp",
+    "image": "/pizzas/four_cheese.webp",
     "sizes": {
       "S": 11.75,
       "M": 14.75,
@@ -304,7 +304,7 @@
     "name": "The Green Garden Pizza",
     "category": "Veggie",
     "description": "Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese",
-    "image": "/public/pizzas/green_garden.webp",
+    "image": "/pizzas/green_garden.webp",
     "sizes": {
       "S": 12,
       "M": 16,
@@ -316,7 +316,7 @@
     "name": "The Italian Vegetables Pizza",
     "category": "Veggie",
     "description": "Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce",
-    "image": "/public/pizzas/ital_veggie.webp",
+    "image": "/pizzas/ital_veggie.webp",
     "sizes": {
       "S": 12.75,
       "M": 16.75,
@@ -328,7 +328,7 @@
     "name": "The Mediterranean Pizza",
     "category": "Veggie",
     "description": "Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions",
-    "image": "/public/pizzas/mediterraneo.webp",
+    "image": "/pizzas/mediterraneo.webp",
     "sizes": {
       "S": 12,
       "M": 16,
@@ -340,7 +340,7 @@
     "name": "The Mexicana Pizza",
     "category": "Veggie",
     "description": "Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",
-    "image": "/public/pizzas/mexicana.webp",
+    "image": "/pizzas/mexicana.webp",
     "sizes": {
       "S": 12,
       "M": 16,
@@ -352,7 +352,7 @@
     "name": "The Spinach Pesto Pizza",
     "category": "Veggie",
     "description": "Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce",
-    "image": "/public/pizzas/spin_pesto.webp",
+    "image": "/pizzas/spin_pesto.webp",
     "sizes": {
       "S": 12.5,
       "M": 16.5,
@@ -364,7 +364,7 @@
     "name": "The Spinach and Feta Pizza",
     "category": "Veggie",
     "description": "Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic",
-    "image": "/public/pizzas/spinach_fet.webp",
+    "image": "/pizzas/spinach_fet.webp",
     "sizes": {
       "S": 12,
       "M": 16,
@@ -376,7 +376,7 @@
     "name": "The Vegetables + Vegetables Pizza",
     "category": "Veggie",
     "description": "Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic",
-    "image": "/public/pizzas/veggie_veg.webp",
+    "image": "/pizzas/veggie_veg.webp",
     "sizes": {
       "S": 12,
       "M": 16,

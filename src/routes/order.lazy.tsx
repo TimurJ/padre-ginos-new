@@ -1,17 +1,21 @@
 import { useEffect, useState } from 'react'
-import Pizza from './Pizza'
-import { intl } from './utils'
-import type { CartType, PizzaSizesType, PizzaType } from './types'
-import Cart from './Cart'
-import { useOrderData } from './hooks/useOrderData'
+import { intl } from '../utils'
+import { useOrderData } from '../hooks/useOrderData'
+import type { PizzaSizesType, PizzaType } from '../types'
+import { createLazyFileRoute } from '@tanstack/react-router'
+import Pizza from '../Pizza'
+import Cart from '../Cart'
 
-const Order = () => {
+export const Route = createLazyFileRoute('/order')({
+  component: Order,
+})
+
+function Order() {
   const [pizzaTypes, setPizzaTypes] = useState<PizzaType[]>([])
   const [pizzaType, setPizzaType] = useState('pepperoni')
   const [pizzaSize, setPizzaSize] = useState<PizzaSizesType>('M')
   const [loading, setLoading] = useState(true)
-  const [cart, setCart] = useState<CartType[]>([])
-  const { addOrder } = useOrderData()
+  const { addOrder, cart, setCart } = useOrderData()
 
   function checkout() {
     setLoading(true)
@@ -124,5 +128,3 @@ const Order = () => {
     </div>
   )
 }
-
-export default Order
