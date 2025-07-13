@@ -1,21 +1,7 @@
 import { useEffect, useState } from 'react'
 import Pizza from './Pizza'
 import { intl } from './utils'
-
-interface PizzaType {
-  id: string
-  name: string
-  category: string
-  description: string
-  image: string
-  sizes: {
-    S: number
-    M: number
-    L: number
-  }
-}
-
-type PizzaSizesType = keyof PizzaType['sizes']
+import type { PizzaSizesType, PizzaType } from './types'
 
 const Order = () => {
   const [pizzaTypes, setPizzaTypes] = useState<PizzaType[]>([])
@@ -103,14 +89,18 @@ const Order = () => {
           </div>
           <button type="submit">Add to Cart</button>
         </div>
-        <div className="order-pizza">
-          <Pizza
-            name={selectedPizza?.name}
-            description={selectedPizza?.description}
-            image={selectedPizza?.image}
-          />
-          <p>{price}</p>
-        </div>
+        {loading ? (
+          <h1>Loading...</h1>
+        ) : (
+          <div className="order-pizza">
+            <Pizza
+              name={selectedPizza?.name}
+              description={selectedPizza?.description}
+              image={selectedPizza?.image}
+            />
+            <p>{price}</p>
+          </div>
+        )}
       </form>
     </div>
   )
