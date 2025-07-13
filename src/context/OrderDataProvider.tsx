@@ -4,13 +4,10 @@ import type { CartType } from '../types'
 
 const OrderDataProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [cart, setCart] = useState<CartType[]>([])
-  const [pastOrders, setPastOrders] = useState<CartType[][]>([])
 
-  const addOrder = (order: CartType[]) => {
-    setPastOrders((previousOrder) => [...previousOrder, order])
-  }
+  console.log(cart)
 
-  const contextValue = useMemo(() => ({ pastOrders, cart, addOrder, setCart }), [pastOrders, cart])
+  const contextValue = useMemo(() => ({ cart, setCart }), [cart])
   return <OrderDataContext.Provider value={contextValue}>{children}</OrderDataContext.Provider>
 }
 

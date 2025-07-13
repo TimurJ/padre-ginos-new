@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import type { PizzaType } from './types'
+import type { PizzaType } from '../types'
 
 export const usePizzaOfTheDay = () => {
   const [pizzaOfTheDay, setPizzaOfTheDay] = useState<PizzaType | undefined>()
