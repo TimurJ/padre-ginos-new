@@ -15,7 +15,7 @@
       "price": 20.25,
       "total": 20.25,
       "size": "L",
-      "image": "/public/pizzas/mexicana.webp"
+      "image": "/pizzas/mexicana.webp"
     }
   ]
 }

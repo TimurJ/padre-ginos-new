@@ -15,7 +15,7 @@
       "price": 12.75,
       "total": 12.75,
       "size": "S",
-      "image": "/public/pizzas/bbq_ckn.webp"
+      "image": "/pizzas/bbq_ckn.webp"
     }
   ]
 }
