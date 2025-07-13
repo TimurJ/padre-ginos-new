@@ -1,0 +1,21 @@
+{
+  "order": {
+    "total": 20.25,
+    "order_id": 21349,
+    "date": "2015-12-31",
+    "time": "22:09:54"
+  },
+  "orderItems": [
+    {
+      "pizzaTypeId": "mexicana",
+      "name": "The Mexicana Pizza",
+      "category": "Veggie",
+      "description": "Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic",
+      "quantity": 1,
+      "price": 20.25,
+      "total": 20.25,
+      "size": "L",
+      "image": "/public/pizzas/mexicana.webp"
+    }
+  ]
+}

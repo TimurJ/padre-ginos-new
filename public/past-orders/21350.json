@@ -1,0 +1,21 @@
+{
+  "order": {
+    "total": 12.75,
+    "order_id": 21350,
+    "date": "2015-12-31",
+    "time": "23:02:05"
+  },
+  "orderItems": [
+    {
+      "pizzaTypeId": "bbq_ckn",
+      "name": "The Barbecue Chicken Pizza",
+      "category": "Chicken",
+      "description": "Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce",
+      "quantity": 1,
+      "price": 12.75,
+      "total": 12.75,
+      "size": "S",
+      "image": "/public/pizzas/bbq_ckn.webp"
+    }
+  ]
+}
