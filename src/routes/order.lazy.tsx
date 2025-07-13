@@ -15,11 +15,10 @@ function Order() {
   const [pizzaType, setPizzaType] = useState('pepperoni')
   const [pizzaSize, setPizzaSize] = useState<PizzaSizesType>('M')
   const [loading, setLoading] = useState(true)
-  const { addOrder, cart, setCart } = useOrderData()
+  const { cart, setCart } = useOrderData()
 
   function checkout() {
     setLoading(true)
-    addOrder(cart)
     setCart([])
     setLoading(false)
   }
